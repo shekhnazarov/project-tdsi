@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell,
+    Noto Sans, sans-serif;
+}
+
+:root {
+  /* Colors */
+  --colorTextPrimary: rgb(85, 85, 85);
+  --colorTextSecondary: #444;
+  --colorLink: #2e2722;
+  --colorLinkHover: #163269;
+  --colorTitle: #555555;
+  /* BgColors */
+  --backgroundPrimary: #3d65fb;
+  --backgroundSecondary: rgb(240, 240, 240);
+  /* Padding */
+  --paddingPrimary: 0 130px;
+}
+
+.title {
+  font-size: 32px;
+  color: var(--colorTitle);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.3px;
+}
+
+.links {
+  font-size: 18px !important;
+  line-height: 18px;
+  margin-top: 15px;
+  font-weight: 600;
+  color: var(--colorTextSecondary);
+}
+
+/* slider */
+.header-slider .slick-dots-bottom {
+  margin-bottom: 30px;
+}
+
+.header-slider .slick-dots li button {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+
+.header-slider .slick-dots .slick-active button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+.header-slider .slick-dots-bottom button::before {
+  display: none;
+}
+
+/* slider finished*/
