@@ -16,6 +16,7 @@
   /* BgColors */
   --backgroundPrimary: #3d65fb;
   --backgroundSecondary: rgb(240, 240, 240);
+  --backgroundNews: #eaf0ff;
   /* Padding */
   --paddingPrimary: 0 130px;
 }
@@ -37,6 +38,13 @@
 }
 
 /* slider */
+
+.header-slider {
+  animation: zoomin 40s ease-in infinite;
+  transition: all 80s ease-in-out;
+  overflow: hidden;
+}
+
 .header-slider .slick-dots-bottom {
   margin-bottom: 30px;
 }

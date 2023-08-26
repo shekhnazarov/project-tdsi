@@ -43,16 +43,21 @@ const Navbar = () => {
       <Nav>
         <Wrapper>
           <Content>
-            {navbar?.map((item) => {
+            {navbar?.map((item, index) => {
               return (
-                <DropdownBox>
+                <DropdownBox key={index}>
                   <Link>
                     <Title>{item?.title || "title"}</Title>
                     <AntDownOutlined />
                     <Dropdown className="drop">
                       {item?.children?.map((info, index) => {
                         return (
-                          <Title padding="true" border="true" to={info?.path}>
+                          <Title
+                            padding="true"
+                            border="true"
+                            to={info?.path}
+                            key={index}
+                          >
                             {info?.label || "label"}
                           </Title>
                         );

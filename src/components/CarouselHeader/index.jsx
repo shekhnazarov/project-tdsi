@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { Container, Image, Arrow, Blur, Content, Wrapper } from "./style";
+import { Container, Image, Arrow, Wrapper } from "./style";
 import { Carousel } from "antd";
 
 const CarouselHeader = () => {

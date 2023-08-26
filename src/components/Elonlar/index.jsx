@@ -3,7 +3,7 @@ import { Container, Wrapper, Section } from "./style";
 import Slider from "react-slick";
 import NewsCard from "../NewsCard";
 
-const CarouselNews = () => {
+const Elonlar = () => {
   let settings = {
     dots: true,
     infinite: false,
@@ -41,7 +41,7 @@ const CarouselNews = () => {
   return (
     <Container>
       <Wrapper>
-        <h3 className="title">Yangiliklar</h3>
+        <h3 className="title">E'lonlar</h3>
         <Section>
           <Slider {...settings} className="slider-news">
             <NewsCard />
@@ -59,4 +59,4 @@ const CarouselNews = () => {
   );
 };
 
-export default CarouselNews;
+export default Elonlar;

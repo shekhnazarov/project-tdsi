@@ -5,7 +5,7 @@ const Container = styled.div`
   width: 100%;
   flex-direction: column;
   justify-content: center;
-  background-color: var(--backgroundSecondary);
+  background-color: #ffffff;
 `;
 
 const Wrapper = styled.div`

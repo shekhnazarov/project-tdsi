@@ -8,7 +8,8 @@ const Container = styled.div`
 `;
 const Image = styled.img`
   width: 100%;
-  height: fit-content;
+  height: 570px;
+  object-fit: cover;
 `;
 
 const Wrapper = styled.div`
