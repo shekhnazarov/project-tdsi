@@ -22,6 +22,7 @@ import {
 } from "./style";
 import { Outlet } from "react-router-dom";
 import { navbar } from "../../utils/navbar";
+import Footer from "../Footer";
 const Navbar = () => {
   return (
     <Container>
@@ -55,7 +56,7 @@ const Navbar = () => {
                           <Title
                             padding="true"
                             border="true"
-                            to={info?.path}
+                            to={`/pages${info?.path}`}
                             key={index}
                           >
                             {info?.label || "label"}
@@ -72,6 +73,7 @@ const Navbar = () => {
         </Wrapper>
       </Nav>
       <Outlet />
+      <Footer />
     </Container>
   );
 };

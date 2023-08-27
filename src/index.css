@@ -13,10 +13,13 @@
   --colorLink: #2e2722;
   --colorLinkHover: #163269;
   --colorTitle: #555555;
+  --colorDark: #140342;
   /* BgColors */
   --backgroundPrimary: #3d65fb;
   --backgroundSecondary: rgb(240, 240, 240);
   --backgroundNews: #eaf0ff;
+  --backgroundCollape: rgb(234, 240, 255);
+  --backgroundFooter: #040837;
   /* Padding */
   --paddingPrimary: 0 130px;
 }
@@ -27,6 +30,10 @@
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.3px;
+}
+
+.color-white {
+  color: #ffffff !important;
 }
 
 .links {
@@ -68,3 +75,39 @@
 }
 
 /* slider finished*/
+
+/* faqs collapse */
+.ant-collapse-item {
+  background-color: var(--backgroundCollape) !important;
+}
+
+.ant-collapse-header {
+  align-items: center !important;
+}
+
+.ant-collapse-expand-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content__icon {
+  color: var(--backgroundPrimary) !important;
+  width: 30px;
+  height: 30px;
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50% !important;
+}
+
+.ant-collapse-header-text {
+  color: var(--colorDark);
+  font-size: 17px;
+  font-weight: 500 !important;
+}
+
+.ant-collapse-content-box {
+  padding-left: 59px !important;
+}
+
+/* faqs collapse finished */

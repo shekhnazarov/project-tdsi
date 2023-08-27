@@ -5,6 +5,9 @@ import Havolalar from "../Havolalar";
 import CarouselNews from "../CarouselNews";
 import VideoGallery from "../Videogallery";
 import Elonlar from "../Elonlar";
+import Statistika from "../Statistika";
+import Useful from "../Useful";
+import Faqs from "../Faqs";
 
 const Home = () => {
   return (
@@ -14,6 +17,9 @@ const Home = () => {
       <CarouselNews />
       <VideoGallery />
       <Elonlar />
+      <Statistika />
+      <Faqs />
+      <Useful />
     </Container>
   );
 };
