@@ -102,7 +102,6 @@ const Footer = () => {
           <Content>
             <Map
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4300.044239036471!2d69.29542445091273!3d41.30890405534615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef527cfd7beab%3A0x41490626bc752d26!2sToshkent%20davlat%20stomatologiya%20instituti%20eski!5e0!3m2!1sen!2s!4v1693083841745!5m2!1sen!2s"
-              allowfullscreen=""
               loading="lazy"
             ></Map>
           </Content>
