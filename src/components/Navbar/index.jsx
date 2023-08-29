@@ -53,12 +53,7 @@ const Navbar = () => {
                     <Dropdown className="drop">
                       {item?.children?.map((info, index) => {
                         return (
-                          <Title
-                            padding="true"
-                            border="true"
-                            to={`/pages${info?.path}`}
-                            key={index}
-                          >
+                          <Title padding="true" border="true" key={index}>
                             {info?.label || "label"}
                           </Title>
                         );
