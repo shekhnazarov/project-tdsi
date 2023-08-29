@@ -95,7 +95,7 @@ const Number = styled.h6`
   font-weight: 700;
   font-size: 30px;
   line-height: 56px;
-  font-family: barlow, sans-serif;
+  font-family: sans-serif;
   color: #222;
 `;
 
